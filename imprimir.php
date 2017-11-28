@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-	<?php 
-	require('fpdf/fpdf.php');
+<?php 
+require("fpdf/fpdf.php");
 
 $pdf = new FPDF();
 $pdf->AddPage();
-$pdf->SetFont('Arial','B',16);
-$pdf->Cell(40,10,'¡Hola, Mundo!');
+$pdf->SetFont('Arial','B',18);
+$pdf->Cell(40,10,utf8_decode("¡Hola, Mundo!"));
 $pdf->Output();
 
-
-	 ?>
-
-</body>
-</html>
+?>

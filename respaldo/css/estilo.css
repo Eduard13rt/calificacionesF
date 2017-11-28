@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Montserrat|Quicksand|Raleway');
+
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+}   
+
+h2 {
+
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: black;
+}   
+
+
+
+/*
+Estas lineas son para el estilo del menu superior
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d7cfc;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    /*Color de letra*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* color cuando dejas mouse sobrepuesto*/
+li a:hover:not(.active) {
+    background-color: #66ff72;
+}
+
+/*color de la pestaña activa*/
+.active {
+    background-color: #44cdff;
+}
+
+
+/*
+el # indica que sera un identificador para el id
+mientras que el . indica que sera usado como class 
+*/
+
+
+
+
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: gray}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+link{
+
+}
