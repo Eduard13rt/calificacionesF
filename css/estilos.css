@@ -1,0 +1,128 @@
+
+h1{
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+  }
+  h2{
+    color: black;
+    font-family: calibri;
+    text-align: center;
+  }
+  h3{
+    color:black;
+    font-family: calibri;
+    text-align: center;
+  }
+  h4{
+    color: black;
+    font-family: calibri;
+    text-align: center;
+  }h5
+  {
+    color: black;
+    font-family: calibri;
+    text-align: center;
+  }
+  h6{
+    color: black;
+    font-family: calibri;
+    font-size: medium;
+    text-align: center;
+  }
+
+  p{
+    color:black;
+font-family: 'Questrial', sans-serif;
+    text-align: center;
+  }
+
+
+  input
+  {
+    color:black;
+font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+table
+{
+  color:black;
+font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+
+img {
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-radius: 8px;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+
+button {
+    background-color: white; /* Green */
+    border: white;
+    color: none;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*---------- FLORERIA --------------- */
+
+ul {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #daf207;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
