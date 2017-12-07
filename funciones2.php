@@ -28,6 +28,7 @@
 			echo "<a href='usuarios.php'>Usuarios</a>";
     		echo "<a href='reportes.php' target='_blank'>Reportes</a>"; 
     		echo "<a href='calif_prof.php'>calificaciones</a>";
+    		echo "<a href='grafi.php'>Graficas</a>";
     		echo "<a href='cerrar_sesion.php'>Salir</a>";
 		}
 		 else 

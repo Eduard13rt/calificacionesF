@@ -73,16 +73,14 @@ $objPHPExcel->getActiveSheet()->getColumnDimension('D')->setAutoSize(TRUE);
 
 //EJEMPLO DE LALO
 $cont=1;
-do
-{
-  
-
 $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('A'.$cont, 'Alumno')
             ->setCellValue('B'.$cont, 'Calificacion 1')
             ->setCellValue('C'.$cont, 'Calificacion 2')
             ->setCellValue('D'.$cont, 'Calificacion 3');
 $cont++;
+do
+{
 $objPHPExcel->setActiveSheetIndex(0)
             ->setCellValue('A'.$cont, $registro['Alumnos_noControlA'])
             ->setCellValue('B'.$cont, $registro['cal1'])
